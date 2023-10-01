@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# Script that displays TCP and UDP listening ports
-
-lsof -i -n -P | grep LISTEN
